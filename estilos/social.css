@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ::-webkit-scrollbar esconde a rolagem da tela, mas ela ainda continua rolando */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 57vh;
+}
+
+a {
+    display: block;
+    background-color: black;  
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;     
+    margin: 0px;
+}
+
+a:hover {
+   background-color:  rgba(169, 169, 169, 0.223);  
+}
